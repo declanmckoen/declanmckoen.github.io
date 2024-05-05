@@ -1,0 +1,6 @@
+.projects-container {
+  display: inline-grid;
+  position: relative;
+  left: 1000px;
+  top: -80px;
+}
