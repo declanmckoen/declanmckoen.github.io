@@ -5,6 +5,10 @@ h1 {
   display: inline-block;
 }
 
-.info-header {
+.info-container {
   margin: 20px;
+}
+
+.info-header {
+  
 }
