@@ -3,8 +3,8 @@
   <head>
     <title>Declan's Portfolio</title>
 
-    <link rel="stylesheet" href="styles/background.css">
-    <link rel="stylesheet" href="styles/basic-elements.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/info.css">
     <link rel="stylesheet" href="styles/projects.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,33 +15,48 @@
   <body>
     <h1>Hi, I'm Declan</h1>
 
+    <p style="display: inline-block; position: absolute; left: 40%;">Placeholder for image</p>
+    <p style="display: inline-block; position: absolute; left: 70%;">Placeholder for image</p>
+
     <div class="info-container">
-      <h3 class="info-header">A bit about me</h3>
-      <p class="info">&#x2022 Computer Science Major at the University of Florida</p>
-      <p class="info">&#x2022 Programming Languages: C++, Python, HTML, CSS, JavaScript, MATLAB</p>
-      <p class="info">&#x2022 Frameworks and Libraries: Pygame, SFML</p>
-      <p class="info">&#x2022 Areas of Interest: Artificial Intelligence, Machine Learning, Back-End Development</p>
+      <div class="education-container education-container-js">
+        Education Timeline
+        <img class="education-clipart" src="/images/education-clipart-removebg-preview.png">
+      </div>
+
+      <div class="technical-skills-container technical-skills-container-js">
+        Technical Skills
+        <img class="technical-skills-clipart" src="/images/technical-skills-removebg-preview.png">
+      </div>
+
+      <div class="interests-container interests-container-js">
+        Interests
+        <img class="interests-clipart" src="/images/interests-removebg-preview.png">
+      </div>
     </div>
 
     <div class="projects-container">
-      <h3>My Projects</h3>
+      <h3 class="projects-header">My Projects</h3>
 
-      <div class="minesweeper-container">
-        <p class="minesweeper">Minesweeper Clone</p>
-      </div>
-
-      <div class="sudoku-container">
-        <p class="sudoku">Sudoku Clone</p>
-      </div>
-
-      <div class="boardbuddy-container">
-        <p class="boardbuddy">Board Buddy</p>
-      </div>
-
-      <div class="avl-tree-container">
-        <p class="avl-tree">AVL Tree</p>
+      <div class="projects-grid">
+        <div class="minesweeper-container">
+          Minesweeper Clone
+        </div>
+  
+        <div class="sudoku-container">
+          Sudoku Clone
+        </div>
+  
+        <div class="boardbuddy-container">
+          Board Buddy
+        </div>
+  
+        <div class="avl-tree-container">
+          AVL Tree
+        </div>
       </div>
     </div>
 
+    <script src="/scripts/info.js"></script>
   </body>
 </html>

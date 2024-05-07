@@ -1,0 +1,56 @@
+.info-container {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  height: 200px;
+}
+
+.education-container {
+  text-align: center;
+  border: solid;
+  border-width: 1px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+.education-information {
+  text-align: left;
+}
+
+.technical-skills-container {
+  text-align: center;
+  border: solid;
+  border-width: 1px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+}
+
+.technical-skills-information {
+  display: grid;
+  border: solid;
+  border-width: 1px;
+  grid-template-columns: 1fr, 1fr, 1fr;
+}
+
+.interests-container {
+  text-align: center;
+  border: solid;
+  border-width: 1px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgreen;
+}
+
+.interests-information {
+  text-align: left;
+}
+
+.education-clipart, .technical-skills-clipart, .interests-clipart {
+  height: 150px;
+}
