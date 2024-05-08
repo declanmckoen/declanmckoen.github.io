@@ -24,13 +24,20 @@
   grid-template-rows: 30px 1fr;
 }
 
-.minesweeper-information {
+.minesweeper-information, .sudoku-information {
   width: 50%;
   position: relative;
+}
+
+.minesweeper-information {
+  color: rgb(116, 204, 233);
+}
+
+.sudoku-information {
   color: rgb(227, 151, 51);
 }
 
-.minesweeper-gif {
+.minesweeper-gif, .sudoku-gif {
   height: 240px;
   width: 340px;
   position: absolute;

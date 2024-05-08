@@ -17,17 +17,18 @@ education.addEventListener('mouseout', () => {
 techSkills.addEventListener('mouseover', () => {
   techSkills.classList.add("technical-skills-information");
   techSkills.innerHTML = `
-    <p>Back-End</p>
+    <p class="technical-skills-item1">Back-End:</p>
     <ul>
-      <li>C++</li>
+      <li>C/C++</li>
       <li>Python</li>
       <li>MATLAB</li>
     </ul>
-    <p>Front-End</p>
+    <p class="technical-skills-item1">Front-End:</p>
     <ul>
       <li>HTML</li>
       <li>CSS</li>
-      <li>JavaScript</li>`;
+      <li>JavaScript</li>
+    </ul>`;
 });
 
 techSkills.addEventListener('mouseout', () => {

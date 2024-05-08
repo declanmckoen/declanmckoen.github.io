@@ -21,6 +21,7 @@
 }
 
 .technical-skills-container {
+  height: 200px;
   text-align: center;
   border: solid;
   border-width: 1px;
@@ -31,12 +32,21 @@
 }
 
 .technical-skills-information {
-  text-align: center;
+  text-align: left;
+  align-items: start;
   border: solid;
   border-width: 1px;
   display: grid;
   background-color: orange;
-  grid-template-columns: 1fr, 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.technical-skills-item1 {
+  justify-self: center;
+}
+
+.technical-skills-information li {
+  margin: 0px;
 }
 
 .interests-container {
@@ -55,4 +65,5 @@
 
 .education-clipart, .technical-skills-clipart, .interests-clipart {
   height: 150px;
+  pointer-events: none;
 }
