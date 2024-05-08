@@ -22,3 +22,6 @@ h1 {
   display: inline-block;
 }
 
+li {
+  margin-bottom: 10px;
+}

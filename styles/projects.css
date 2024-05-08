@@ -4,6 +4,11 @@
   margin-bottom: 10px;
 }
 
+.projects-container h3 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
 .projects-header {
   margin-bottom: 10px;
 }
@@ -13,18 +18,32 @@
   height: 1000px;
 }
 
-.minesweeper-container {
-
+.minesweeper-container, .sudoku-container, .boardbuddy-container, .avl-tree-container {
+  display: grid;
+  height: 250px;
+  grid-template-rows: 30px 1fr;
 }
 
-.sudoku-container {
-
+.minesweeper-information {
+  width: 50%;
+  position: relative;
+  color: rgb(227, 151, 51);
 }
 
-.boardbuddy-container {
-
+.minesweeper-gif {
+  height: 240px;
+  width: 340px;
+  position: absolute;
+  left: 130%;
+  top: -20px;
 }
 
-.avl-tree-container {
+.minesweeper-link, .sudoku-link, .boardbuddy-link, .avl-tree-link {
+  color: black;
+  text-decoration: underline;
+  width: 50%;
+}
 
+.minesweeper-link:hover, .sudoku-link:hover, .boardbuddy-link:hover, .avl-tree-link:hover {
+  color: rgb(58, 58, 58);
 }
