@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/info.css">
     <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/header.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,10 +14,15 @@
   </head>
   
   <body>
-    <h1>Hi, I'm Declan</h1>
+    <div class="header-wrapper">
+      <h1>Hi, I'm Declan</h1>
 
-    <p style="display: inline-block; position: absolute; left: 40%;">Placeholder for image</p>
-    <p style="display: inline-block; position: absolute; left: 70%;">Placeholder for image</p>
+      <div class="button-flex-row">
+        <a class="resume-button"><img class="resume-icon" src="/images/resume-icon.png"></a>
+        <a class="contact-info-button"><img class="contact-info-icon" src="/images/contact-info.png"></a>
+        <a class="linkedin-button" href="https://www.linkedin.com/in/declanmckoen/" target="_blank"><img class="linkedin-icon" src="/images/linkedin.png"></a>
+      </div>
+    </div>
 
     <div class="info-container">
       <div class="education-container education-container-js">
@@ -94,5 +100,6 @@
     </div>
 
     <script src="/scripts/info.js"></script>
+    <script src="/scripts/header.js"></script>
   </body>
 </html>
