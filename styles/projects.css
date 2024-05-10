@@ -6,7 +6,7 @@
 
 .projects-container h3 {
   font-size: 30px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .projects-header {
@@ -24,7 +24,7 @@
   grid-template-rows: 30px 1fr;
 }
 
-.minesweeper-information, .sudoku-information {
+.minesweeper-information, .sudoku-information, .boardbuddy-information, .avl-tree-information {
   width: 50%;
   position: relative;
 }
@@ -37,12 +37,32 @@
   color: rgb(227, 151, 51);
 }
 
-.minesweeper-gif, .sudoku-gif {
-  height: 240px;
-  width: 340px;
+.boardbuddy-information {
+  color: rgb(17, 196, 17);
+}
+
+.minesweeper-video video {
+  height: 225px;
+  width: 250px;
   position: absolute;
-  left: 130%;
+  left: 150%;
   top: -20px;
+}
+
+.sudoku-video video {
+  height: 260px;
+  width: 250px;
+  position: absolute;
+  left: 150%;
+  top: -20px;
+}
+
+.boardbuddy-video {
+  height: 200px;
+  width: 250px;
+  position: absolute;
+  left: 150%;
+  top: 10px;
 }
 
 .minesweeper-link, .sudoku-link, .boardbuddy-link, .avl-tree-link {
