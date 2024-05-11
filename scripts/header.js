@@ -7,4 +7,13 @@ window.addEventListener("scroll", (event) => {
   else {
     headerWrapper.classList.remove("nav-down");
   }
-})
+});
+
+contactInfo = document.getElementById('contact-info-js');
+contactInfo.addEventListener("mouseover", () => {
+  contactInfo.innerHTML = "Testing";
+});
+
+contactInfo.addEventListener("mouseout", () => {
+  contactInfo.innerHTML = `<a><img class="contact-info-icon" src="/images/contact-info.png"></a>`;
+});
