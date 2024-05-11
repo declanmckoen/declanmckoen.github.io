@@ -9,11 +9,7 @@ window.addEventListener("scroll", (event) => {
   }
 });
 
-contactInfo = document.getElementById('contact-info-js');
-contactInfo.addEventListener("mouseover", () => {
-  contactInfo.innerHTML = "Testing";
-});
-
-contactInfo.addEventListener("mouseout", () => {
-  contactInfo.innerHTML = `<a><img class="contact-info-icon" src="/images/contact-info.png"></a>`;
+contactInfo = document.getElementById("contact-info-js");
+contactInfo.addEventListener("click", () => {
+  
 });

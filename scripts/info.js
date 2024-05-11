@@ -31,7 +31,7 @@ techSkills.addEventListener('mouseover', () => {
     </ul>`;
 });
 
-techSkills.addEventListener('mouseout', () => {
+techSkills.addEventListener('mouseleave', () => {
   techSkills.classList.remove("technical-skills-information");
   techSkills.innerHTML = `Technical Skills
     <img class="technical-skills-clipart" src="/images/technical-skills-removebg-preview.png">`;
