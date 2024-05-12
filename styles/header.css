@@ -47,7 +47,7 @@
 }
 
 .button:hover {
-  flex-grow: 4;
+  flex-grow: 3;
 }
 
 .button:hover a img {

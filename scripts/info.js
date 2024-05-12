@@ -39,7 +39,7 @@ techSkills.addEventListener('mouseleave', () => {
 
 interests.addEventListener('mouseover', () => {
   interests.classList.add("interests-information");
-  interests.innerHTML = `&#x2022 Articial Intelligence <br /> &#x2022 Machine Learning <br /> &#x2022 Back-End Web Development`;
+  interests.innerHTML = `&#x2022 Articial Intelligence <br /> &#x2022 Machine Learning <br /> &#x2022 Cybersecurity`;
 });
 
 interests.addEventListener('mouseout', () => {

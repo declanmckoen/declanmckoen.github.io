@@ -15,16 +15,16 @@
 
 .projects-grid {
   display: grid;
-  height: 1000px;
+  height: 1200px;
 }
 
-.minesweeper-container, .sudoku-container, .boardbuddy-container, .avl-tree-container {
+.minesweeper-container, .sudoku-container, .boardbuddy-container, .nfl-draft-container {
   display: grid;
-  height: 250px;
+  height: 300px;
   grid-template-rows: 30px 1fr;
 }
 
-.minesweeper-information, .sudoku-information, .boardbuddy-information, .avl-tree-information {
+.minesweeper-information, .sudoku-information, .boardbuddy-information, .nfl-draft-information {
   width: 50%;
   position: relative;
 }
@@ -65,12 +65,20 @@
   top: 10px;
 }
 
-.minesweeper-link, .sudoku-link, .boardbuddy-link, .avl-tree-link {
+.nfl-draft-video {
+  height: 230px;
+  width: 250px;
+  position: absolute;
+  left: 150%;
+  top: -10px;
+}
+
+.minesweeper-link, .sudoku-link, .boardbuddy-link, .nfl-draft-link {
   color: black;
   text-decoration: underline;
   width: 50%;
 }
 
-.minesweeper-link:hover, .sudoku-link:hover, .boardbuddy-link:hover, .avl-tree-link:hover {
+.minesweeper-link:hover, .sudoku-link:hover, .boardbuddy-link:hover, .nfl-draft-link:hover {
   color: rgb(58, 58, 58);
 }
