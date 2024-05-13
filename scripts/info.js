@@ -4,7 +4,7 @@ const interests = document.querySelector('.interests-container-js');
 
 education.addEventListener('mouseover', () => {
   education.classList.add("education-information");
-  education.innerHTML = `2022 <br /> &#x2022 Received IB Diploma <br /> <br />
+  education.innerHTML = `2022 <br /> &#x2022 Received International Baccalaureate (IB) Diploma <br /> <br />
     2022-Current <br /> &#x2022 University of Florida <br /> &#x2022 Majoring in Computer Science`;
 });
 
