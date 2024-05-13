@@ -18,8 +18,19 @@
   position: absolute;
   z-index: 10;
   color: white;
-  left: 43%;
+  left: 42%;
   top: 10px;
+}
+
+.website-code {
+  position: absolute;
+  margin-left: 73%;
+  margin-top: 45px;
+  color: white;
+}
+
+.website-code-link {
+  color: white;
 }
 
 .button-flex-row {
@@ -34,8 +45,8 @@
 }
 
 .resume-icon, .contact-info-icon, .linkedin-icon {
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
 }
 
@@ -60,4 +71,24 @@
 
 .contact-info-icon {
   background-color: rgb(104, 100, 100);
+}
+
+.contact-info-button::after {
+  content: 'Email: mckoendeclan@gmail.com \A\A Phone: \A (813) 503-815';
+  white-space: pre-wrap;
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  background-color: rgb(104, 100, 100);
+  padding: 40px 55px;
+  transform: scale(0);
+  transition: 
+    transform ease-out 150ms,
+    top ease-out 150ms
+  ;
+}
+
+.contact-info-button:hover::after {
+  transform: scale(1);
+  top: 150%;
 }
