@@ -93,7 +93,7 @@
 }
 
 .minesweeper-link::after {
-  content: " <- Click Me!";
+  content: " <- View Code";
   color: red;
   display: inline-block;
   margin-left: 4px;
