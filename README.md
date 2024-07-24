@@ -1,4 +1,4 @@
-This project is a personal portfolio website developed using HTML, CSS, and JavaScript. The portfolio showcases your projects, skills, and experience, providing a professional online presence. The website is hosted using GitHub Pages and can be viewed at declanmckoen.github.io
+This project is a personal portfolio website developed using HTML, CSS, and JavaScript. The portfolio showcases my projects, skills, and experience, providing a professional online presence. The website is hosted using GitHub Pages and can be viewed at declanmckoen.github.io
 
 
 index.html: The main HTML file that structures the content of the portfolio.
